@@ -2,17 +2,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-    <artifactId>EA_test_mvn</artifactId>
-    <groupId>com.mycompany</groupId>
+    <artifactId>ejbExamples</artifactId>
+    <groupId>com.ecme</groupId>
     <version>1.0-SNAPSHOT</version>
   </parent>
 
-    <groupId>com.mycompany</groupId>
-    <artifactId>EA_test_mvn-web</artifactId>
+    <groupId>com.ecme</groupId>
+    <artifactId>ejbExamples-web</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>EA_test_mvn-web</name>
+    <name>ejbExamples-web</name>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>

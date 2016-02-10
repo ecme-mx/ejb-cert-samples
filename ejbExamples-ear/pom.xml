@@ -2,17 +2,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-    <artifactId>EA_test_mvn</artifactId>
-    <groupId>com.mycompany</groupId>
+    <artifactId>ejbExamples</artifactId>
+    <groupId>com.ecme</groupId>
     <version>1.0-SNAPSHOT</version>
   </parent>
 
-    <groupId>com.mycompany</groupId>
-    <artifactId>EA_test_mvn-ear</artifactId>
+    <groupId>com.ecme</groupId>
+    <artifactId>ejbExamples-ear</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>ear</packaging>
 
-    <name>EA_test_mvn-ear</name>
+    <name>ejbExamples-ear</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -42,14 +42,14 @@
     </build>
     <dependencies>
         <dependency>
-            <groupId>com.mycompany</groupId>
-            <artifactId>EA_test_mvn-ejb</artifactId>
+            <groupId>com.ecme</groupId>
+            <artifactId>ejbExamples-ejb</artifactId>
             <version>1.0-SNAPSHOT</version>
             <type>ejb</type>
         </dependency>
         <dependency>
-            <groupId>com.mycompany</groupId>
-            <artifactId>EA_test_mvn-web</artifactId>
+            <groupId>com.ecme</groupId>
+            <artifactId>ejbExamples-web</artifactId>
             <version>1.0-SNAPSHOT</version>
             <type>war</type>
         </dependency>
